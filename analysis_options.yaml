@@ -1,0 +1,14 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # エラー防止ルール
+    always_use_package_imports: true
+    avoid_print: true
+    avoid_relative_lib_imports: true
+    # スタイルルール
+    always_declare_return_types: true
+    camel_case_types: true
+    constant_identifier_names: true
+    prefer_const_constructors: true
+    sort_child_properties_last: true[3][6]
